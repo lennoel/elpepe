@@ -1,0 +1,213 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Plus+Jakarta+Sans%3Awght%40400%3B500%3B700%3B800"
+    />
+
+    <title>Proyecto 81</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F4EFE6] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1C160C]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#1C160C] text-lg font-bold leading-tight tracking-[-0.015em]">Artesanos</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Inicio</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Catalogo</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Contacto</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Mujeres</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Hombres</a>
+              <a class="text-[#1C160C] text-sm font-medium leading-normal" href="#">Niños</a>
+            </div>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-[#F4EFE6] text-[#1C160C] text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Buscar</span>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#F4EFE6] text-[#1C160C] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1C160C]" data-icon="MagnifyingGlass" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 bg-[#F4EFE6] text-[#1C160C] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-[#1C160C]" data-icon="ShoppingBag" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://cdn.usegalileo.ai/sdxl10/e0a52696-fd31-4149-a876-b58326b4d511.png");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Hecho a mano, con amor
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Nuestro compromiso con la calidad y la artesana es lo que nos hace nicos. Descubre nuestra coleccin de prendas de vestir y accesorios, hechos con amor.
+                    </h2>
+                  </div>
+                  <label class="flex flex-col min-w-40 h-14 w-full max-w-[480px] @[480px]:h-16">
+                    <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                      <div
+                        class="text-[#A18249] flex border border-[#E9DFCE] bg-[#FFFFFF] items-center justify-center pl-[15px] rounded-l-xl border-r-0"
+                        data-icon="MagnifyingGlass"
+                        data-size="20px"
+                        data-weight="regular"
+                      >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <input
+                        placeholder="Busca una prenda"
+                        class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#1C160C] focus:outline-0 focus:ring-0 border border-[#E9DFCE] bg-[#FFFFFF] focus:border-[#E9DFCE] h-full placeholder:text-[#A18249] px-[15px] rounded-r-none border-r-0 pr-2 rounded-l-none border-l-0 pl-2 text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal"
+                        value=""
+                      />
+                      <div class="flex items-center justify-center rounded-r-xl border-l-0 border border-[#E9DFCE] bg-[#FFFFFF] pr-[7px]">
+                        <button
+                          class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#019863] text-[#FFFFFF] text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                        >
+                          <span class="truncate">Buscar</span>
+                        </button>
+                      </div>
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1C160C] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Para ella</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/9cdd8644-d277-4b39-af2d-8b30ea77cb48.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Blusa de lino</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/7a864f4d-c723-4d47-9bdb-2c16d037972d.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Joyeria minimalista</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/eca8df18-ea2a-45cb-baaa-bc85ad94ee31.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Pantalones de lino</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/30e23cd0-0015-46b1-8bf9-09e0f4f3ebc5.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Vestido de lino</p>
+              </div>
+            </div>
+            <h2 class="text-[#1C160C] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Para el</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/0a00aae7-f85b-4f9e-8f6f-f23cd9ab5ff6.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Camiseta de algodon</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/cd782d33-b68e-455b-ab86-7980b8fa7a2b.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Pulsera de cuero</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5add380c-4e53-4344-85c3-f9583ebd94f7.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Pantalones de algodon</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/25ce1001-7cd5-4c50-ba8a-22a1bc32be4a.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Sombrero de paja</p>
+              </div>
+            </div>
+            <h2 class="text-[#1C160C] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Accesorios</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/5e75d726-8408-45e2-a8e6-40fc7e0c34d2.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Bolso de lona</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/07052ad6-6e61-4ff7-8a01-322cf4b9a597.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Gafas de sol</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/24eadc5a-5c49-4687-92dc-a8558fe7cf32.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Cinturon de cuero</p>
+              </div>
+              <div class="flex flex-col gap-3 pb-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://cdn.usegalileo.ai/replicate/20ee1eb5-132a-4f53-9ecc-68b93c688642.png");'
+                ></div>
+                <p class="text-[#1C160C] text-base font-medium leading-normal">Bufanda de seda</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
