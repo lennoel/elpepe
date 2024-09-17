@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 
 </head>
 <body>
@@ -69,7 +69,14 @@
             <ion-icon name="lock-closed-outline"></ion-icon>
             <input type="password" name="password" placeholder="Password" required>
         </div>
-        
+        <div class="select">
+        <select name="format" id="format" onchange="mostrarFormulario()">
+            <option selected disabled>Selecciona tu usuario</option>
+            <option value="cliente">Cliente</option>
+            <option value="delivery">Delivery</option>
+            <option value="artesano">Artesano</option>
+        </select>
+    </div>  
         <button class="button" type="submit" name="register">REGISTRARSE</button>
     </form>
 </div>
@@ -80,7 +87,8 @@
                 <img src="img/a1.png" width="200" height="200"/>
                 <h3>hl ctm</h3>
                 <p>Ingrese sus datos personales para para el banco bnb</p>
-                <button class="button" id="btn-sign-up">Registrarse</button>
+              
+                <button class="button" id="btn-sign-up">Registrarsee</button>
             </div>
             <div class="welcome-sign-in welcome">
                 <img src="img/a2.png" width="200" height="200"/>
