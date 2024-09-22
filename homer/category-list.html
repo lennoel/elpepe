@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Categorias</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- SideBar -->
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				el pepe corp <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box text-center">
+					<img src="./assets/avatars/iconpep.jfif" alt="UserIcon">
+					<h4>Admin </h3>
+						<h5>pepito perez</h5>
+				</figure>
+				<ul class="full-box list-unstyled text-center">
+					
+					<li>
+						<a href="#!" title="Salir del sistema" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- SideBar Menu -->
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="home.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Home
+					</a>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-case zmdi-hc-fw"></i> Administración <i
+							class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						
+						<li>
+							<a href="category.html"><i class="zmdi zmdi-labels zmdi-hc-fw"></i>Categorías</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Usuarios <i
+							class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="artezanos.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Artezanos</a>
+						</li>
+						<li>
+							<a href="client.html"><i class="zmdi zmdi-male-female zmdi-hc-fw"></i> Clientes</a>
+						</li>
+						<li>
+							<a href="delibery.html"><i class="zmdi zmdi-truck zmdi-hc-fw"></i> Deliberys</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="catalog.html" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-book-image zmdi-hc-fw"></i>Inventario <i
+							class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="producto.html"><ion-icon name="shirt-outline"></ion-icon></i> Productos</a>
+						</li>
+						<li>
+							<a href="client.html"><i class="zmdi zmdi-shopping-cart"></i> Ventas</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- Content page-->
+	<section class="full-box dashboard-contentPage">
+		<!-- NavBar -->
+		<nav class="full-box dashboard-Navbar">
+			<ul class="full-box list-unstyled text-right">
+				<li class="pull-left">
+					<a href="#!" class="btn-menu-dashboard"><i class="zmdi zmdi-more-vert"></i></a>
+				</li>
+				<li>
+					<a href="search.html" class="btn-search">
+						<i class="zmdi zmdi-search"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Content page -->
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1 class="text-titles"><i class="zmdi zmdi-labels zmdi-hc-fw"></i> Administración
+					<small>CATEORÍAS</small>
+				</h1>
+			</div>
+
+		</div>
+
+		<div class="container-fluid">
+			<ul class="breadcrumb breadcrumb-tabs">
+				<li>
+					<a href="category.html" class="btn btn-info">
+						<i class="zmdi zmdi-plus"></i> &nbsp; NUEVA CATEORÍA
+					</a>
+				</li>
+				<li>
+					<a href="category-list.html" class="btn btn-info">
+						<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; LISTA DE CATEORÍAS
+					</a>
+				</li>
+				<li>
+					<a href="category-seach.html" class="btn btn-info">
+						<i class="zmdi zmdi-search"></i> &nbsp; BUSCAR
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<div class="form_area" id="content-box">
+				<p class="title">LISTA CATEGORIAS</p>
+				<form action="" id="contenido2">
+					<div class="table-container" id="table-container"></div>
+						<table class="custom-table">
+						  <thead>
+							<tr>
+							  <th>#</th>
+							  <th>Name</th>
+							  <th>Points</th>
+							  <th>Team</th>
+							  <th>Modificar</th>
+							  <th>eliminar</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <td>1</td>
+							  <td>Domenic</td>
+							  <td>88,110</td>
+							  <td>dcode</td>
+							  <td><a href="#" class="action-button-links">Modificar</a></td>
+							  <td><a href="#" class="action-button-link">Eliminar</a></td> 
+							</tr>
+							<tr>
+							  <td>2</td>
+							  <td>Sally</td>
+							  <td>72,400</td>
+							  <td>Students</td>
+							  <td><a href="#" class="action-button-links">Modificar</a></td>
+							  <td><a href="#" class="action-button-link">Eliminar</a></td> 
+							</tr>
+							<tr>
+							  <td>3</td>
+							  <td>Nick</td>
+							  <td>52,300</td>
+							  <td>dcode</td>
+							  <td><a href="#" class="action-button-links">Modificar</a></td>
+							  <td><a href="#" class="action-button-link">Eliminar</a></td> 
+							</tr>
+						  </tbody>
+						</table>
+					  </div>			
+				</form>
+			</div>
+		</div>
+
+	</section>
+
+	<!--====== Scripts -->
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/sweetalert2.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/material.min.js"></script>
+	<script src="./js/ripples.min.js"></script>
+	<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		$.material.init();
+	</script>
+</body>
+
+</html>
