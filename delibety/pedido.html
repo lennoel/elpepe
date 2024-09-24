@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Categorias</title>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- SideBar -->
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				el pepe corp <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box text-center">
+					<img src="./assets/avatars/iconpep.jfif" alt="UserIcon">
+					<h4>Admin </h3>
+						<h5>pepito perez</h5>
+				</figure>
+				<ul class="full-box list-unstyled text-center">
+					
+					<li>
+						<a href="#!" title="Salir del sistema" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- SideBar Menu -->
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="home.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Home
+					</a>
+				</li>
+				<li>
+					<a href="pedido.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i>Pedido
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+
+	<!-- Content page-->
+	<section class="full-box dashboard-contentPage">
+		
+		<div class="container-fluid">
+			<div class="containerr">
+				<!-- Sección Izquierda con la Imagen -->
+				<div class="left">
+					<img src="assets/img/q9.jfif" alt="Descripción de la imagen">
+				</div>
+		
+				<!-- Sección Derecha con Labels -->
+				<div class="right">
+					<label for="nombre">Nombre del pedido :</label>
+					<label for="Cantidad">Cantidad :</label>
+					<label for="email">Email:</label>
+					<label for="Ubicacion">Ubicacion</label>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container-fluid">
+			<ul class="breadcrumb breadcrumb-tabs">
+				<li>
+					<a href="producto.html" class="btn btn-info">
+						<i class="zmdi zmdi-plus"></i> &nbsp; Aceptar Pedido
+					</a>
+				</li>
+				<li>
+					<a href="producto-list.html" class="btn btn-info">
+						<i class="zmdi zmdi-format-list-bulleted"></i> &nbsp; Rechazar Pedido
+					</a>
+				</li>
+				<li>
+					<a href="producto-seach.html" class="btn btn-info">
+						<i class="zmdi zmdi-search"></i> &nbsp; Reportar pedido
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		
+
+	</section>
+
+	<!--====== Scripts -->
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/sweetalert2.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/material.min.js"></script>
+	<script src="./js/ripples.min.js"></script>
+	<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		$.material.init();
+	</script>
+</body>
+
+</html>

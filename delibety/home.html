@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Inicio</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+	<!--barrra-->
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+			
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				el pepe corp <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box text-center">
+					<img src="./assets/avatars/iconpep.jfif" alt="UserIcon">
+					<h4>delibery </h3>
+                    <h5>pepito perez</h5>
+				</figure>
+				<ul class="full-box list-unstyled text-center">
+					
+					<li>
+						<a href="#!" title="Salir del sistema" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- SideBar Menu -->
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="home.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Home
+					</a>
+				</li>
+				<li>
+					<a href="pedido.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i>Pedido
+					</a>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	                               
+	<section class="full-width pageContent"></section>
+		<section class="full-width text-center" style="padding: 40px 0;">
+			<h2 class="text-center tittles">PEDIDOS</h2><br>
+			<section class="full-box dashboard-contentPage">
+			 <div class="cart-container">
+        	<table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Items</th>
+                    <th>Cantidad</th>
+                    <th>Recorrido</th>
+                    <th>Precio</th>
+                    <th>Total Precio</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="item">
+                        <img src="assets/img/q9.jfif" alt="Cooked meat and veggies kebab">
+                        <div class="item-details">      
+                            <span class="item-name">Artezania del tio evo</span>
+                        </div>
+                    </td>
+                    <td>2x</td>
+                    <td>$15.99</td>
+                    <td>$10</td>
+                    <td>$30.99</td>
+                    <td><button class="remove-btn">✖</button></td>
+                    <td><button class="removee-btn">✔</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="assets/img/q9.jfif" alt="Noodle dish on white ceramic bowl">
+                        <div class="item-details">
+                            <span class="item-name">Artezania del tio evo</span>
+                        </div>
+                    </td>
+                    <td>5x</td>
+                    <td>$14.25</td>
+                    <td>$10</td>
+                    <td>$70.25</td>
+                    <td><button class="remove-btn">✖</button></td>
+                    <td><button class="removee-btn">✔</button></td>
+                </tr>
+                <tr>
+                    <td class="item">
+                        <img src="assets/img/q9.jfif" alt="Cooked meat and veggies kebab">
+                        <div class="item-details">
+                            <span class="item-name">Artezania del tio evo</span>
+                        </div>
+                    </td>
+                    <td>8x</td>
+                    <td>$10.85</td>
+                    <td>$10</td>    
+                    <td>$80.85</td>
+                    <td><button class="remove-btn">✖</button></td>
+                    <td><button class="removee-btn">✔</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>	
+			</section>
+		</section>
+    
+	<!--====== Scripts -->
+	<script src="./js/jquery-3.1.1.min.js"></script>
+	<script src="./js/sweetalert2.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/material.min.js"></script>
+	<script src="./js/ripples.min.js"></script>
+	<script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		$.material.init();
+	</script>
+    <script  type ="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script  nomodule  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "></script>
+</body>
+</html>
